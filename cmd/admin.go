@@ -9,8 +9,8 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/setting"
+	"github.com/gityflow/gityflow/models"
+	"github.com/gityflow/gityflow/pkg/setting"
 )
 
 var (

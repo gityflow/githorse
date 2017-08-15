@@ -12,15 +12,15 @@ import (
 
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/models/errors"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/form"
-	"github.com/gogits/gogs/routes/api/v1/admin"
-	"github.com/gogits/gogs/routes/api/v1/misc"
-	"github.com/gogits/gogs/routes/api/v1/org"
-	"github.com/gogits/gogs/routes/api/v1/repo"
-	"github.com/gogits/gogs/routes/api/v1/user"
+	"github.com/gityflow/gityflow/models"
+	"github.com/gityflow/gityflow/models/errors"
+	"github.com/gityflow/gityflow/pkg/context"
+	"github.com/gityflow/gityflow/pkg/form"
+	"github.com/gityflow/gityflow/routes/api/v1/admin"
+	"github.com/gityflow/gityflow/routes/api/v1/misc"
+	"github.com/gityflow/gityflow/routes/api/v1/org"
+	"github.com/gityflow/gityflow/routes/api/v1/repo"
+	"github.com/gityflow/gityflow/routes/api/v1/user"
 )
 
 func repoAssignment() macaron.Handler {

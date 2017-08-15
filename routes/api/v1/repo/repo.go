@@ -11,12 +11,12 @@ import (
 
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/models/errors"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/form"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/routes/api/v1/convert"
+	"github.com/gityflow/gityflow/models"
+	"github.com/gityflow/gityflow/models/errors"
+	"github.com/gityflow/gityflow/pkg/context"
+	"github.com/gityflow/gityflow/pkg/form"
+	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/gityflow/routes/api/v1/convert"
 )
 
 // https://github.com/gogits/go-gogs-client/wiki/Repositories#search-repositories

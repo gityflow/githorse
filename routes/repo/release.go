@@ -10,11 +10,11 @@ import (
 
 	log "gopkg.in/clog.v1"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/form"
-	"github.com/gogits/gogs/pkg/markup"
-	"github.com/gogits/gogs/pkg/setting"
+	"github.com/gityflow/gityflow/models"
+	"github.com/gityflow/gityflow/pkg/context"
+	"github.com/gityflow/gityflow/pkg/form"
+	"github.com/gityflow/gityflow/pkg/markup"
+	"github.com/gityflow/gityflow/pkg/setting"
 )
 
 const (

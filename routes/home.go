@@ -7,10 +7,10 @@ package routes
 import (
 	"github.com/Unknwon/paginater"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/routes/user"
+	"github.com/gityflow/gityflow/models"
+	"github.com/gityflow/gityflow/pkg/context"
+	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/gityflow/routes/user"
 )
 
 const (

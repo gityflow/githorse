@@ -7,8 +7,8 @@ package user
 import (
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/context"
+	"github.com/gityflow/gityflow/models"
+	"github.com/gityflow/gityflow/pkg/context"
 )
 
 func responseApiUsers(c *context.APIContext, users []*models.User) {

@@ -21,11 +21,11 @@ import (
 	log "gopkg.in/clog.v1"
 	"gopkg.in/macaron.v1"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/models/errors"
-	"github.com/gogits/gogs/pkg/auth"
-	"github.com/gogits/gogs/pkg/form"
-	"github.com/gogits/gogs/pkg/setting"
+	"github.com/gityflow/gityflow/models"
+	"github.com/gityflow/gityflow/models/errors"
+	"github.com/gityflow/gityflow/pkg/auth"
+	"github.com/gityflow/gityflow/pkg/form"
+	"github.com/gityflow/gityflow/pkg/setting"
 )
 
 // Context represents context of a request.

@@ -18,8 +18,8 @@ import (
 	"golang.org/x/crypto/ssh"
 	log "gopkg.in/clog.v1"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/setting"
+	"github.com/gityflow/gityflow/models"
+	"github.com/gityflow/gityflow/pkg/setting"
 )
 
 func cleanCommand(cmd string) string {

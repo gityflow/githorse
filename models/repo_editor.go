@@ -21,8 +21,8 @@ import (
 
 	git "github.com/gogits/git-module"
 
-	"github.com/gogits/gogs/pkg/process"
-	"github.com/gogits/gogs/pkg/setting"
+	"github.com/gityflow/gityflow/pkg/process"
+	"github.com/gityflow/gityflow/pkg/setting"
 )
 
 // ___________    .___.__  __    ___________.__.__

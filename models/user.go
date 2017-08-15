@@ -29,10 +29,10 @@ import (
 	"github.com/gogits/git-module"
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models/errors"
-	"github.com/gogits/gogs/pkg/avatar"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/pkg/tool"
+	"github.com/gityflow/gityflow/models/errors"
+	"github.com/gityflow/gityflow/pkg/avatar"
+	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/gityflow/pkg/tool"
 )
 
 type UserType int

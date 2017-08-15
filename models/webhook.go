@@ -21,10 +21,10 @@ import (
 
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models/errors"
-	"github.com/gogits/gogs/pkg/httplib"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/pkg/sync"
+	"github.com/gityflow/gityflow/models/errors"
+	"github.com/gityflow/gityflow/pkg/httplib"
+	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/gityflow/pkg/sync"
 )
 
 var HookQueue = sync.NewUniqueQueue(setting.Webhook.QueueLength)
