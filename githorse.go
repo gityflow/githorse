@@ -24,7 +24,7 @@ func init() {
 
 func main() {
 	app := cli.NewApp()
-	app.Name = "Gogs"
+	app.Name = "GitHorse"
 	app.Usage = "A painless self-hosted Git service"
 	app.Version = APP_VER
 	app.Commands = []cli.Command{

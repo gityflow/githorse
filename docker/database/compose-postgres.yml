@@ -1,0 +1,16 @@
+version: '2.0'
+services:
+  # Mobilitx PostgreSQL service:
+  mbx-database:
+    image: postgres:9.5
+    container_name: postgres-db
+    mem_limit: 2g
+    environment:
+      - POSTGRES_DB=githorse
+      - POSTGRES_USER=githorse
+      - POSTGRES_PASSWORD=githorse
+      - TZ=Europe/Paris
+    ports:
+      - 5432:5432
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d:rw

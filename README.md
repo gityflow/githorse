@@ -2,7 +2,7 @@
 =====================
 
 <p align="center">
-    <img src="/logos/githorse.png" width="200px" >
+    <img src="/public/img/logos/githorse.png" width="200px" >
 </p>
 
 ##### Current tip version: [`.VERSION`](templates/.VERSION) (see [Releases](https://github.com/gityflow/githorse/releases) for binary versions)
