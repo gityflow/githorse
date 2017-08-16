@@ -3,8 +3,7 @@ GitHorse [![Build Status](https://travis-ci.org/gogits/gogs.svg?branch=master)](
 
 ![](/logos/githorse.png)
 
-
-![](https://github.com/gityflow/gityflow/blob/master/public/img/gogs-large-resize.png?raw=true)
+<div style="text-align:center"><img src ="/logos/githorse.png" /></div>
 
 ##### Current tip version: [`.VERSION`](templates/.VERSION) (see [Releases](https://github.com/gityflow/gityflow/releases) for binary versions)
 
