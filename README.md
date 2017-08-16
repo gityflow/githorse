@@ -4,7 +4,7 @@ GitHorse [![Build Status](https://travis-ci.org/gogits/gogs.svg?branch=master)](
 ![](/logos/githorse.png)
 
 <p align="center">
-    <img src="/logos/githorse.png" width="600px" >
+    <img src="/logos/githorse.svg" width="600px" >
 </p>
 
 ##### Current tip version: [`.VERSION`](templates/.VERSION) (see [Releases](https://github.com/gityflow/gityflow/releases) for binary versions)
