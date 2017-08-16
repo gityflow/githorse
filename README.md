@@ -1,4 +1,4 @@
-<img src="/logos/githorse.png" width="20px" > GitHorse [![Build Status](https://travis-ci.org/gogits/gogs.svg?branch=master)](https://travis-ci.org/gogits/gogs) [![Build status](https://ci.appveyor.com/api/projects/status/b9uu5ejl933e2wlt/branch/master?svg=true)](https://ci.appveyor.com/project/Unknwon/gogs/branch/master) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/gogs/localized.svg)](https://crowdin.com/project/gogs) [![Sourcegraph](https://sourcegraph.com/github.com/gityflow/githorse/-/badge.svg)](https://sourcegraph.com/github.com/gityflow/githorse?badge) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gogits/gogs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<img src="/public/img/logos/githorse.png" width="20px" > GitHorse [![Build Status](https://travis-ci.org/gogits/gogs.svg?branch=master)](https://travis-ci.org/gogits/gogs) [![Build status](https://ci.appveyor.com/api/projects/status/b9uu5ejl933e2wlt/branch/master?svg=true)](https://ci.appveyor.com/project/Unknwon/gogs/branch/master) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/gogs/localized.svg)](https://crowdin.com/project/gogs) [![Sourcegraph](https://sourcegraph.com/github.com/gityflow/githorse/-/badge.svg)](https://sourcegraph.com/github.com/gityflow/githorse?badge) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gogits/gogs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 =====================
 
 <p align="center">
@@ -12,6 +12,14 @@
 |![Dashboard](https://gogs.io/img/screenshots/1.png)|![Repository](https://gogs.io/img/screenshots/2.png)|![Editor](https://gogs.io/img/screenshots/3.png)|
 |![Profile](https://gogs.io/img/screenshots/4.png)|![Diff](https://gogs.io/img/screenshots/5.png)|![Repository Settings](https://gogs.io/img/screenshots/6.png?ts=20170322)|
 |![Webhook](https://gogs.io/img/screenshots/7.png)|![Organization](https://gogs.io/img/screenshots/8.png)|![Admin Dashboard](https://gogs.io/img/screenshots/9.png)|
+
+### New features 
+
+1. create branch from UI
+2. Delete branch from UI
+3. Link branch to ticket
+4. Pull request branch and close ticket. 
+
 
 ### Important Notes
 
