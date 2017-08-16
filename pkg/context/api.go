@@ -12,7 +12,7 @@ import (
 	log "gopkg.in/clog.v1"
 	"gopkg.in/macaron.v1"
 
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 type APIContext struct {

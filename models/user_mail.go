@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gityflow/gityflow/models/errors"
+	"github.com/gityflow/githorse/models/errors"
 )
 
 // EmailAdresses is the list of all email addresses of a user. Can contain the

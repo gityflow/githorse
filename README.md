@@ -1,11 +1,11 @@
-<img src="/logos/githorse.png" width="20px" > GitHorse [![Build Status](https://travis-ci.org/gogits/gogs.svg?branch=master)](https://travis-ci.org/gogits/gogs) [![Build status](https://ci.appveyor.com/api/projects/status/b9uu5ejl933e2wlt/branch/master?svg=true)](https://ci.appveyor.com/project/Unknwon/gogs/branch/master) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/gogs/localized.svg)](https://crowdin.com/project/gogs) [![Sourcegraph](https://sourcegraph.com/github.com/gityflow/gityflow/-/badge.svg)](https://sourcegraph.com/github.com/gityflow/gityflow?badge) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gogits/gogs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<img src="/logos/githorse.png" width="20px" > GitHorse [![Build Status](https://travis-ci.org/gogits/gogs.svg?branch=master)](https://travis-ci.org/gogits/gogs) [![Build status](https://ci.appveyor.com/api/projects/status/b9uu5ejl933e2wlt/branch/master?svg=true)](https://ci.appveyor.com/project/Unknwon/gogs/branch/master) [![Crowdin](https://d322cqt584bo4o.cloudfront.net/gogs/localized.svg)](https://crowdin.com/project/gogs) [![Sourcegraph](https://sourcegraph.com/github.com/gityflow/githorse/-/badge.svg)](https://sourcegraph.com/github.com/gityflow/githorse?badge) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gogits/gogs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 =====================
 
 <p align="center">
     <img src="/logos/githorse.png" width="200px" >
 </p>
 
-##### Current tip version: [`.VERSION`](templates/.VERSION) (see [Releases](https://github.com/gityflow/gityflow/releases) for binary versions)
+##### Current tip version: [`.VERSION`](templates/.VERSION) (see [Releases](https://github.com/gityflow/githorse/releases) for binary versions)
 
 | Web | UI  | Preview  |
 |:-------------:|:-------:|:-------:|
@@ -15,7 +15,7 @@
 
 ### Important Notes
 
-1. **YOU MUST READ [Contributing Code](https://github.com/gityflow/gityflow/wiki/Contributing-Code) BEFORE STARTING TO WORK ON A PULL REQUEST**.
+1. **YOU MUST READ [Contributing Code](https://github.com/gityflow/githorse/wiki/Contributing-Code) BEFORE STARTING TO WORK ON A PULL REQUEST**.
 2. Due to testing purpose, data of [try.gogs.io](https://try.gogs.io) was reset in **Jan 28, 2015** and will reset multiple times after. Please do **NOT** put your important data on the site.
 3. The demo site [try.gogs.io](https://try.gogs.io) is running under `develop` branch.
 4. If you think there are vulnerabilities in the project, please talk privately to **u@gogs.io**, and the name you want to be credited as. Thanks!
@@ -76,7 +76,7 @@ There are 5 ways to install Gogs:
 - [Install from binary](https://gogs.io/docs/installation/install_from_binary.html)
 - [Install from source](https://gogs.io/docs/installation/install_from_source.html)
 - [Install from packages](https://gogs.io/docs/installation/install_from_packages.html)
-- [Ship with Docker](https://github.com/gityflow/gityflow/tree/master/docker)
+- [Ship with Docker](https://github.com/gityflow/githorse/tree/master/docker)
 - [Install with Vagrant](https://github.com/geerlingguy/ansible-vagrant-examples/tree/master/gogs)
 
 ### Tutorials
@@ -132,9 +132,9 @@ There are 5 ways to install Gogs:
 
 ## Contributors
 
-- See [contributors page](https://github.com/gityflow/gityflow/graphs/contributors) for top 100 contributors.
+- See [contributors page](https://github.com/gityflow/githorse/graphs/contributors) for top 100 contributors.
 - See [TRANSLATORS](conf/locale/TRANSLATORS) for public list of translators.
 
 ## License
 
-This project is under the MIT License. See the [LICENSE](https://github.com/gityflow/gityflow/blob/master/LICENSE) file for the full license text.
+This project is under the MIT License. See the [LICENSE](https://github.com/gityflow/githorse/blob/master/LICENSE) file for the full license text.

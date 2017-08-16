@@ -14,9 +14,9 @@ import (
 
 	"github.com/gogits/git-module"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/models/errors"
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/models/errors"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 type PullRequest struct {

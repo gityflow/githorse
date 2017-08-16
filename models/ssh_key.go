@@ -23,9 +23,9 @@ import (
 	"golang.org/x/crypto/ssh"
 	log "gopkg.in/clog.v1"
 
-	"github.com/gityflow/gityflow/pkg/process"
-	"github.com/gityflow/gityflow/pkg/setting"
-	"github.com/gityflow/gityflow/pkg/tool"
+	"github.com/gityflow/githorse/pkg/process"
+	"github.com/gityflow/githorse/pkg/setting"
+	"github.com/gityflow/githorse/pkg/tool"
 )
 
 const (

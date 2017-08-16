@@ -9,12 +9,12 @@ import (
 
 	log "gopkg.in/clog.v1"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/models/errors"
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/pkg/form"
-	"github.com/gityflow/gityflow/pkg/setting"
-	"github.com/gityflow/gityflow/routes/user"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/models/errors"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/pkg/form"
+	"github.com/gityflow/githorse/pkg/setting"
+	"github.com/gityflow/githorse/routes/user"
 )
 
 const (

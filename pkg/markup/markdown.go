@@ -14,8 +14,8 @@ import (
 
 	"github.com/russross/blackfriday"
 
-	"github.com/gityflow/gityflow/pkg/tool"
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/pkg/tool"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 // IsMarkdownFile reports whether name looks like a Markdown file based on its extension.

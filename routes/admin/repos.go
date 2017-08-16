@@ -8,9 +8,9 @@ import (
 	"github.com/Unknwon/paginater"
 	log "gopkg.in/clog.v1"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 const (

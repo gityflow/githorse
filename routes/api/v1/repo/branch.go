@@ -7,9 +7,9 @@ package repo
 import (
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/routes/api/v1/convert"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/routes/api/v1/convert"
 )
 
 // https://github.com/gogits/go-gogs-client/wiki/Repositories#get-branch

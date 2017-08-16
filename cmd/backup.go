@@ -17,8 +17,8 @@ import (
 	log "gopkg.in/clog.v1"
 	"gopkg.in/ini.v1"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 var Backup = cli.Command{

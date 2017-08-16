@@ -11,7 +11,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 func init() {

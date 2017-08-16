@@ -19,9 +19,9 @@ import (
 	"github.com/go-xorm/xorm"
 	log "gopkg.in/clog.v1"
 
-	"github.com/gityflow/gityflow/models/errors"
-	"github.com/gityflow/gityflow/pkg/auth/ldap"
-	"github.com/gityflow/gityflow/pkg/auth/pam"
+	"github.com/gityflow/githorse/models/errors"
+	"github.com/gityflow/githorse/pkg/auth/ldap"
+	"github.com/gityflow/githorse/pkg/auth/pam"
 )
 
 type LoginType int

@@ -9,7 +9,7 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	. "github.com/gityflow/gityflow/pkg/markup"
+	. "github.com/gityflow/githorse/pkg/markup"
 )
 
 func Test_Sanitizer(t *testing.T) {

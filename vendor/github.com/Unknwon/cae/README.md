@@ -28,7 +28,7 @@ All subpackages use [GoConvey](http://goconvey.co/) to write test cases, and cov
 
 ### Use cases
 
-- [Gogs](https://github.com/gityflow/gityflow): self hosted Git service in the Go Programming Language.
+- [Gogs](https://github.com/gityflow/githorse): self hosted Git service in the Go Programming Language.
 - [GoBlog](https://github.com/fuxiaohei/GoBlog): personal blogging application.
 - [GoBuild](https://github.com/shxsun/gobuild/): online Go cross-platform compilation and download service.
 

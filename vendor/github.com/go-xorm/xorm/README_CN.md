@@ -268,7 +268,7 @@ err := engine.Where(builder.NotIn("a", 1, 2).And(builder.In("b", "c", "d", "e"))
 
 * [Docker.cn](https://docker.cn/)
 
-* [Gogs](http://try.gogits.org) - [github.com/gityflow/gityflow](http://github.com/gityflow/gityflow)
+* [Gogs](http://try.gogits.org) - [github.com/gityflow/githorse](http://github.com/gityflow/githorse)
 
 * [Gowalker](http://gowalker.org) - [github.com/Unknwon/gowalker](http://github.com/Unknwon/gowalker)
 

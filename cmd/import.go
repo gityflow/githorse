@@ -15,7 +15,7 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/urfave/cli"
 
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 var (

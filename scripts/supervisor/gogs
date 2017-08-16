@@ -1,6 +1,6 @@
 [program:gogs]
-directory=/home/git/go/src/github.com/gityflow/gityflow/
-command=/home/git/go/src/github.com/gityflow/gityflow/gogs web
+directory=/home/git/go/src/github.com/gityflow/githorse/
+command=/home/git/go/src/github.com/gityflow/githorse/gogs web
 autostart=true
 autorestart=true
 startsecs=10

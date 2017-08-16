@@ -11,10 +11,10 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/Unknwon/paginater"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/models/errors"
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/models/errors"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 const (

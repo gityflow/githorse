@@ -12,8 +12,8 @@ import (
 	"gopkg.in/gomail.v2"
 	"gopkg.in/macaron.v1"
 
-	"github.com/gityflow/gityflow/pkg/markup"
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/pkg/markup"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 const (

@@ -12,8 +12,8 @@ import (
 	"github.com/russross/blackfriday"
 	. "github.com/smartystreets/goconvey/convey"
 
-	. "github.com/gityflow/gityflow/pkg/markup"
-	"github.com/gityflow/gityflow/pkg/setting"
+	. "github.com/gityflow/githorse/pkg/markup"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 func Test_IsMarkdownFile(t *testing.T) {

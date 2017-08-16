@@ -17,10 +17,10 @@ import (
 
 	"github.com/gogits/git-module"
 
-	"github.com/gityflow/gityflow/models/errors"
-	"github.com/gityflow/gityflow/pkg/process"
-	"github.com/gityflow/gityflow/pkg/setting"
-	"github.com/gityflow/gityflow/pkg/sync"
+	"github.com/gityflow/githorse/models/errors"
+	"github.com/gityflow/githorse/pkg/process"
+	"github.com/gityflow/githorse/pkg/setting"
+	"github.com/gityflow/githorse/pkg/sync"
 )
 
 var MirrorQueue = sync.NewUniqueQueue(setting.Repository.MirrorQueueLength)

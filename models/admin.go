@@ -15,8 +15,8 @@ import (
 	"github.com/go-xorm/xorm"
 	log "gopkg.in/clog.v1"
 
-	"github.com/gityflow/gityflow/pkg/setting"
-	"github.com/gityflow/gityflow/pkg/tool"
+	"github.com/gityflow/githorse/pkg/setting"
+	"github.com/gityflow/githorse/pkg/tool"
 )
 
 type NoticeType int

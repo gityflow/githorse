@@ -9,7 +9,7 @@ import (
 
 	log "gopkg.in/clog.v1"
 
-	"github.com/gityflow/gityflow/models/errors"
+	"github.com/gityflow/githorse/models/errors"
 )
 
 type AccessMode int

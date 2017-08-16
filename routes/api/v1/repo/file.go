@@ -7,9 +7,9 @@ package repo
 import (
 	"github.com/gogits/git-module"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/routes/repo"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/routes/repo"
 )
 
 // https://github.com/gogits/go-gogs-client/wiki/Repositories-Contents#download-raw-content

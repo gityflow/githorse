@@ -16,10 +16,10 @@ import (
 	"github.com/urfave/cli"
 	log "gopkg.in/clog.v1"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/models/errors"
-	"github.com/gityflow/gityflow/pkg/setting"
-	http "github.com/gityflow/gityflow/routes/repo"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/models/errors"
+	"github.com/gityflow/githorse/pkg/setting"
+	http "github.com/gityflow/githorse/routes/repo"
 )
 
 const (

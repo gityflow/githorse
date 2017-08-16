@@ -10,12 +10,12 @@ import (
 	"github.com/Unknwon/com"
 	log "gopkg.in/clog.v1"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/pkg/form"
-	"github.com/gityflow/gityflow/pkg/mailer"
-	"github.com/gityflow/gityflow/pkg/setting"
-	"github.com/gityflow/gityflow/routes"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/pkg/form"
+	"github.com/gityflow/githorse/pkg/mailer"
+	"github.com/gityflow/githorse/pkg/setting"
+	"github.com/gityflow/githorse/routes"
 )
 
 const (

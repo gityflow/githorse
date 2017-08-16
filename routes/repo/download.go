@@ -10,9 +10,9 @@ import (
 
 	"github.com/gogits/git-module"
 
-	"github.com/gityflow/gityflow/pkg/tool"
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/pkg/tool"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 func ServeData(c *context.Context, name string, reader io.Reader) error {

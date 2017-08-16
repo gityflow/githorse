@@ -15,8 +15,8 @@ import (
 
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gityflow/gityflow/models/errors"
-	"github.com/gityflow/gityflow/pkg/markup"
+	"github.com/gityflow/githorse/models/errors"
+	"github.com/gityflow/githorse/pkg/markup"
 )
 
 // CommentType defines whether a comment is just a simple comment, an action (like close) or a reference.

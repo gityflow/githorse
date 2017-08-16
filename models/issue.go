@@ -15,9 +15,9 @@ import (
 
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gityflow/gityflow/models/errors"
-	"github.com/gityflow/gityflow/pkg/setting"
-	"github.com/gityflow/gityflow/pkg/tool"
+	"github.com/gityflow/githorse/models/errors"
+	"github.com/gityflow/githorse/pkg/setting"
+	"github.com/gityflow/githorse/pkg/tool"
 )
 
 var (

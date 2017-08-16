@@ -24,7 +24,7 @@ import (
 
 	"github.com/gogits/chardet"
 
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 // MD5Bytes encodes string to MD5 bytes.

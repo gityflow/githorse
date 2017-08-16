@@ -7,8 +7,8 @@ package org
 import (
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/routes/api/v1/convert"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/routes/api/v1/convert"
 )
 
 func ListTeams(c *context.APIContext) {

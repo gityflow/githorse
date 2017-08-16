@@ -20,10 +20,10 @@ import (
 
 	"github.com/gogits/git-module"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/httplib"
-	"github.com/gityflow/gityflow/pkg/setting"
-	http "github.com/gityflow/gityflow/routes/repo"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/httplib"
+	"github.com/gityflow/githorse/pkg/setting"
+	http "github.com/gityflow/githorse/routes/repo"
 )
 
 var (

@@ -10,7 +10,7 @@ import (
 	"github.com/go-xorm/xorm"
 	gouuid "github.com/satori/go.uuid"
 
-	"github.com/gityflow/gityflow/pkg/tool"
+	"github.com/gityflow/githorse/pkg/tool"
 )
 
 // AccessToken represents a personal access token.

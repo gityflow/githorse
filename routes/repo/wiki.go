@@ -11,10 +11,10 @@ import (
 
 	"github.com/gogits/git-module"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/pkg/form"
-	"github.com/gityflow/gityflow/pkg/markup"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/pkg/form"
+	"github.com/gityflow/githorse/pkg/markup"
 )
 
 const (

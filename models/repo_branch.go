@@ -11,7 +11,7 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/gogits/git-module"
 
-	"github.com/gityflow/gityflow/pkg/tool"
+	"github.com/gityflow/githorse/pkg/tool"
 )
 
 type Branch struct {

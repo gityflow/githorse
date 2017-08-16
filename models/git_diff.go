@@ -17,9 +17,9 @@ import (
 
 	"github.com/gogits/git-module"
 
-	"github.com/gityflow/gityflow/pkg/tool"
-	"github.com/gityflow/gityflow/pkg/setting"
-	"github.com/gityflow/gityflow/pkg/template/highlight"
+	"github.com/gityflow/githorse/pkg/tool"
+	"github.com/gityflow/githorse/pkg/setting"
+	"github.com/gityflow/githorse/pkg/template/highlight"
 )
 
 type DiffSection struct {

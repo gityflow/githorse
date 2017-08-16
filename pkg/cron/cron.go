@@ -11,8 +11,8 @@ import (
 
 	"github.com/gogits/cron"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 var c = cron.New()

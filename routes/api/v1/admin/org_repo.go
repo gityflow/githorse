@@ -5,9 +5,9 @@
 package admin
 
 import (
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/models/errors"
-	"github.com/gityflow/gityflow/pkg/context"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/models/errors"
+	"github.com/gityflow/githorse/pkg/context"
 )
 
 func GetRepositoryByParams(c *context.APIContext) *models.Repository {

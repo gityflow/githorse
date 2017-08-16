@@ -21,10 +21,10 @@ import (
 	log "gopkg.in/clog.v1"
 	"gopkg.in/editorconfig/editorconfig-core-go.v1"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/tool"
-	"github.com/gityflow/gityflow/pkg/markup"
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/tool"
+	"github.com/gityflow/githorse/pkg/markup"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 func NewFuncMap() []template.FuncMap {

@@ -17,13 +17,13 @@ import (
 
 	"github.com/gogits/git-module"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/pkg/markup"
-	"github.com/gityflow/gityflow/pkg/setting"
-	"github.com/gityflow/gityflow/pkg/template"
-	"github.com/gityflow/gityflow/pkg/template/highlight"
-	"github.com/gityflow/gityflow/pkg/tool"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/pkg/markup"
+	"github.com/gityflow/githorse/pkg/setting"
+	"github.com/gityflow/githorse/pkg/template"
+	"github.com/gityflow/githorse/pkg/template/highlight"
+	"github.com/gityflow/githorse/pkg/tool"
 )
 
 const (

@@ -5,7 +5,7 @@
 package convert
 
 import (
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 // ToCorrectPageSize makes sure page size is in allowed range.

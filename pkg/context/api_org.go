@@ -5,7 +5,7 @@
 package context
 
 import (
-	"github.com/gityflow/gityflow/models"
+	"github.com/gityflow/githorse/models"
 )
 
 type APIOrganization struct {

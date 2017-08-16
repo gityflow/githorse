@@ -1,5 +1,5 @@
-LDFLAGS += -X "github.com/gityflow/gityflow/pkg/setting.BuildTime=$(shell date -u '+%Y-%m-%d %I:%M:%S %Z')"
-LDFLAGS += -X "github.com/gityflow/gityflow/pkg/setting.BuildGitHash=$(shell git rev-parse HEAD)"
+LDFLAGS += -X "github.com/gityflow/githorse/pkg/setting.BuildTime=$(shell date -u '+%Y-%m-%d %I:%M:%S %Z')"
+LDFLAGS += -X "github.com/gityflow/githorse/pkg/setting.BuildGitHash=$(shell git rev-parse HEAD)"
 
 DATA_FILES := $(shell find conf | sed 's/ /\\ /g')
 LESS_FILES := $(wildcard public/less/gogs.less public/less/_*.less)

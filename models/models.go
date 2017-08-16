@@ -23,8 +23,8 @@ import (
 	_ "github.com/lib/pq"
 	log "gopkg.in/clog.v1"
 
-	"github.com/gityflow/gityflow/models/migrations"
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/models/migrations"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 // Engine represents a XORM engine or session.

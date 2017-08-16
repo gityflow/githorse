@@ -10,8 +10,8 @@ import (
 	"github.com/go-macaron/csrf"
 	"gopkg.in/macaron.v1"
 
-	"github.com/gityflow/gityflow/pkg/auth"
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/pkg/auth"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 type ToggleOptions struct {

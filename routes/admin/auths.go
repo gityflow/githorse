@@ -11,11 +11,11 @@ import (
 	"github.com/go-xorm/core"
 	log "gopkg.in/clog.v1"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/auth/ldap"
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/pkg/form"
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/auth/ldap"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/pkg/form"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 const (

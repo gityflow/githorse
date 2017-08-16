@@ -7,10 +7,10 @@ package admin
 import (
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/routes/api/v1/convert"
-	"github.com/gityflow/gityflow/routes/api/v1/user"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/routes/api/v1/convert"
+	"github.com/gityflow/githorse/routes/api/v1/user"
 )
 
 // https://github.com/gogits/go-gogs-client/wiki/Administration-Organizations#create-a-new-organization

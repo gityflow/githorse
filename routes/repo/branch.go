@@ -11,8 +11,8 @@ import (
 
 	"github.com/gogits/git-module"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/context"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/context"
 )
 
 const (

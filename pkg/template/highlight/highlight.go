@@ -8,7 +8,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/gityflow/gityflow/pkg/setting"
+	"github.com/gityflow/githorse/pkg/setting"
 )
 
 var (

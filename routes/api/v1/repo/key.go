@@ -9,10 +9,10 @@ import (
 
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gityflow/gityflow/models"
-	"github.com/gityflow/gityflow/pkg/context"
-	"github.com/gityflow/gityflow/pkg/setting"
-	"github.com/gityflow/gityflow/routes/api/v1/convert"
+	"github.com/gityflow/githorse/models"
+	"github.com/gityflow/githorse/pkg/context"
+	"github.com/gityflow/githorse/pkg/setting"
+	"github.com/gityflow/githorse/routes/api/v1/convert"
 )
 
 func composeDeployKeysAPILink(repoPath string) string {
