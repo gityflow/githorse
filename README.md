@@ -17,7 +17,7 @@
 
 ### New features
 
-1. create branch from UI
+1. create branch from UI (git branch brachname)
 2. Delete branch from UI
 3. Link branch to ticket
 4. Pull request branch and close ticket. 
