@@ -89,6 +89,10 @@ There are 5 ways to install Gogs:
 - [Ship with Docker](https://github.com/gityflow/githorse/tree/master/docker)
 - [Install with Vagrant](https://github.com/geerlingguy/ansible-vagrant-examples/tree/master/gogs)
 
+### Debug mode
+ - To run application in remote debug you have to install `go get github.com/derekparker/delve/cmd/dlv` and run `run-debug.sh`
+    
+
 ### Tutorials
 
 - [How To Set Up Gogs on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-gogs-on-ubuntu-14-04)
