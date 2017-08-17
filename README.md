@@ -13,7 +13,9 @@
 |![Profile](https://gogs.io/img/screenshots/4.png)|![Diff](https://gogs.io/img/screenshots/5.png)|![Repository Settings](https://gogs.io/img/screenshots/6.png?ts=20170322)|
 |![Webhook](https://gogs.io/img/screenshots/7.png)|![Organization](https://gogs.io/img/screenshots/8.png)|![Admin Dashboard](https://gogs.io/img/screenshots/9.png)|
 
-###New features 
+
+
+### New features
 
 1. create branch from UI
 2. Delete branch from UI
