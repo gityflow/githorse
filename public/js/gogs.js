@@ -327,6 +327,7 @@ function initRepository() {
     if ($('.repository.view.issue').length > 0) {
         // Edit issue title
         var $issueTitle = $('#issue-title');
+        var $issueIndex = $('#issue-index');
         var $editInput = $('#edit-title-input').find('input');
         var editTitleToggle = function () {
             $issueTitle.toggle();
@@ -336,7 +337,12 @@ function initRepository() {
             $editInput.focus();
             return false;
         };
+
+		var createBranch = function () {
+			console.log("Create new branch " + $issueIndex.text() + "-" + $issueTitle.text());
+		};
         $('#edit-title').click(editTitleToggle);
+		$('#create-branch-issue').click(createBranch);
         $('#cancel-edit-title').click(editTitleToggle);
         $('#save-edit-title').click(editTitleToggle).click(function () {
             if ($editInput.val().length == 0 ||
@@ -1143,7 +1149,7 @@ function initWebhookSettings() {
 $(document).ready(function () {
     csrf = $('meta[name=_csrf]').attr("content");
     suburl = $('meta[name=_suburl]').attr("content");
-    
+
     // Set cursor to the end of autofocus input string
     $('input[autofocus]').each(function () {
         $(this).val($(this).val());
