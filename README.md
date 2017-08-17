@@ -14,15 +14,6 @@
 |![Webhook](https://gogs.io/img/screenshots/7.png)|![Organization](https://gogs.io/img/screenshots/8.png)|![Admin Dashboard](https://gogs.io/img/screenshots/9.png)|
 
 
-
-### New features
-
-1. create branch from UI (git branch brachname)
-2. Delete branch from UI
-3. Link branch to ticket
-4. Pull request branch and close ticket. 
-
-
 ### Important Notes
 
 1. **YOU MUST READ [Contributing Code](https://github.com/gityflow/githorse/wiki/Contributing-Code) BEFORE STARTING TO WORK ON A PULL REQUEST**.
@@ -45,7 +36,7 @@ The goal of this project is to make the easiest, fastest, and most painless way 
 - Having trouble? Get help with [Troubleshooting](https://gogs.io/docs/intro/troubleshooting.html) or [User Forum](https://discuss.gogs.io/).
 - Want to help with localization? Check out the [guide](https://gogs.io/docs/features/i18n.html)!
 
-## Features
+## Features from Gogs
 
 - Activity timeline
 - SSH and HTTP/HTTPS protocols
@@ -65,6 +56,13 @@ The goal of this project is to make the easiest, fastest, and most painless way 
 - Administration panel
 - Supports MySQL, PostgreSQL, SQLite3, MSSQL and [TiDB](https://github.com/pingcap/tidb) (via MySQL protocol)
 - Multi-language support ([25 languages](https://crowdin.com/project/gogs))
+
+### New features for Git Horse  <img src="/public/img/logos/githorse.png" width="20px" >
+
+- create branch from UI (git branch brachname)
+- Delete branch from UI
+- Link branch to ticket
+- Pull request branch and close ticket. 
 
 ## Hardware Requirements
 
@@ -88,6 +86,14 @@ There are 5 ways to install Gogs:
 - [Install from packages](https://gogs.io/docs/installation/install_from_packages.html)
 - [Ship with Docker](https://github.com/gityflow/githorse/tree/master/docker)
 - [Install with Vagrant](https://github.com/geerlingguy/ansible-vagrant-examples/tree/master/gogs)
+
+
+### Installation for developer
+
+- Download the last GoLang zip version from `https://golang.org/dl/`
+- Run `tar -C /usr/local -xzf go1.8.3.linux-amd64.tar.gz`
+- Run `export PATH=$PATH:/usr/local/go/bin`
+
 
 ### Debug mode
  - To run application in remote debug you have to install `go get github.com/derekparker/delve/cmd/dlv` and run `run-debug.sh`
