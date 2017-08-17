@@ -9,7 +9,9 @@
 		{{if .IsIssueOwner}}
 			<div class="four wide column">
 				<div class="edit-zone text right">
+					{{if not .Issue.IsPull}}
 					<div id="create-branch-issue" class="ui basic blue not-in-edit  button">{{.i18n.Tr "repo.issues.create_branch"}}</div>
+					{{end}}
 					<div id="edit-title" class="ui basic green not-in-edit button">{{.i18n.Tr "repo.issues.edit"}}</div>
 					<div id="cancel-edit-title" class="ui basic blue in-edit button" style="display: none">{{.i18n.Tr "repo.issues.cancel"}}</div>
 					<div id="save-edit-title" class="ui green in-edit button" style="display: none" data-update-url="{{$.RepoLink}}/issues/{{.Issue.Index}}/title">{{.i18n.Tr "repo.issues.save"}}</div>
