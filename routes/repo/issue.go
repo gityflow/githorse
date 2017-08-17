@@ -24,6 +24,7 @@ import (
 	"github.com/gityflow/githorse/pkg/markup"
 	"github.com/gityflow/githorse/pkg/setting"
 	"github.com/gityflow/githorse/pkg/tool"
+	"strconv"
 )
 
 const (
@@ -652,6 +653,7 @@ func viewIssue(c *context.Context, isPullList bool) {
 	c.Data["Participants"] = participants
 	c.Data["NumParticipants"] = len(participants)
 	c.Data["Issue"] = issue
+	c.Data["HasBranchCreated"] = c.Repo.GitRepo.IsBranchExist(strconv.Itoa(int(issue.Index))+"-"+issue.Title)
 	c.Data["IsIssueOwner"] = c.Repo.IsWriter() || (c.IsLogged && issue.IsPoster(c.User.ID))
 	c.Data["SignInLink"] = setting.AppSubURL + "/user/login?redirect_to=" + c.Data["Link"].(string)
 	c.HTML(200, ISSUE_VIEW)

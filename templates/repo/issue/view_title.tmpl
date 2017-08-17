@@ -9,8 +9,8 @@
 		{{if .IsIssueOwner}}
 			<div class="four wide column">
 				<div class="edit-zone text right">
-					{{if not .Issue.IsPull}}
-					<div id="create-branch-issue" class="ui basic blue not-in-edit  button">{{.i18n.Tr "repo.issues.create_branch"}}</div>
+					{{if and (not .Issue.IsPull) (not .Issue.IsClosed) (not .HasBranchCreated)}}
+					<div id="create-branch-issue" class="ui basic blue not-in-edit  button" data-create-branch-url="{{$.RepoLink}}/branches/create/{{.Issue.Index}}-{{.Issue.Title}}">{{.i18n.Tr "repo.issues.create_branch"}} {{.HasBranchCreated}}</div>
 					{{end}}
 					<div id="edit-title" class="ui basic green not-in-edit button">{{.i18n.Tr "repo.issues.edit"}}</div>
 					<div id="cancel-edit-title" class="ui basic blue in-edit button" style="display: none">{{.i18n.Tr "repo.issues.cancel"}}</div>

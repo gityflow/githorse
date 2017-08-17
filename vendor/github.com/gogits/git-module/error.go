@@ -27,13 +27,13 @@ type ErrNotExist struct {
 	RelPath string
 }
 
+func (err ErrNotExist) Error() string {
+	return fmt.Sprintf("object does not exist [id: %s, rel_path: %s]", err.ID, err.RelPath)
+}
+
 func IsErrNotExist(err error) bool {
 	_, ok := err.(ErrNotExist)
 	return ok
-}
-
-func (err ErrNotExist) Error() string {
-	return fmt.Sprintf("object does not exist [id: %s, rel_path: %s]", err.ID, err.RelPath)
 }
 
 type ErrUnsupportedVersion struct {
@@ -59,3 +59,5 @@ func IsErrNoMergeBase(err error) bool {
 func (err ErrNoMergeBase) Error() string {
 	return "no merge based found"
 }
+
+

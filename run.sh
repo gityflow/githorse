@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 rm githorse
-make bindata
+#make bindata
 go build
 ./githorse web

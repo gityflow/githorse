@@ -102,6 +102,20 @@ func (repo *Repository) DeleteBranch(name string, opts DeleteBranchOptions) erro
 	return err
 }
 
+// DeleteBranch delete a branch by name on repository.
+func (repo *Repository) CreateBranch(name string) error {
+
+	if IsBranchExist(repo.Path,name) {
+		return ErrUnsupportedVersion{"1.7.10"}
+	}
+	cmd := NewCommand("branch")
+
+	cmd.AddArguments(name)
+	_, err := cmd.RunInDir(repo.Path)
+
+	return err
+}
+
 // AddRemote adds a new remote to repository.
 func (repo *Repository) AddRemote(name, url string, fetch bool) error {
 	cmd := NewCommand("remote", "add")
@@ -113,6 +127,9 @@ func (repo *Repository) AddRemote(name, url string, fetch bool) error {
 	_, err := cmd.RunInDir(repo.Path)
 	return err
 }
+
+
+
 
 // RemoveRemote removes a remote from repository.
 func (repo *Repository) RemoveRemote(name string) error {

@@ -582,6 +582,7 @@ func runWeb(c *cli.Context) error {
 			m.Get("", repo.Branches)
 			m.Get("/all", repo.AllBranches)
 			m.Post("/delete/*", reqSignIn, reqRepoWriter, repo.DeleteBranchPost)
+			m.Post("/create/*", reqSignIn, reqRepoWriter, repo.CreateNewBranch)
 		}, repo.MustBeNotBare, func(c *context.Context) {
 			c.Data["PageIsViewFiles"] = true
 		})

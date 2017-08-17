@@ -105,6 +105,18 @@ func AllBranches(c *context.Context) {
 	c.HTML(200, BRANCHES_ALL)
 }
 
+func CreateNewBranch(c *context.Context)  {
+	branchName := c.Params("*")
+	if c.Repo.GitRepo.IsBranchExist(branchName) {
+		return
+	}
+
+	if err := c.Repo.GitRepo.CreateBranch(branchName);
+		err != nil {
+		log.Error(2, "CreateBranch '%s': %v", branchName, err)
+		return
+	}
+}
 func DeleteBranchPost(c *context.Context) {
 	branchName := c.Params("*")
 	commitID := c.Query("commit")

@@ -335,6 +335,7 @@ func Issues(c *context.Context) {
 	c.Data["RepoID"] = repoID
 	c.Data["IsShowClosed"] = isShowClosed
 
+
 	if isShowClosed {
 		c.Data["State"] = "closed"
 	} else {
