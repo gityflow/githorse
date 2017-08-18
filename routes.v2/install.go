@@ -33,7 +33,7 @@ import (
 )
 
 const (
-	INSTALL = "install"
+	INSTALL = "v2/install"
 )
 
 func checkRunMode() {
