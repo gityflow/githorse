@@ -1,7 +1,59 @@
-.horse-menu-padded{
+.horse-menu-padded {
     padding: 0 5px 5px 0;
 }
 
-.horse-menu-bg{
-    background-color: #1b1c1d;
+.horse-png.mini {
+    width: 25px !important;
+}
+
+.horse-menu-bg {
+    background-color: rgb(50, 62, 81) !important;
+}
+
+.horse-left-menu-bg {
+    background-color: rgb(50, 62, 81) !important;
+    height: 100%;
+    border: none !important;
+
+}
+
+.horse-install-content {
+    height: 100%;
+    margin-left: 70px !important;
+}
+
+.horse-color-azure {
+    color: azure !important;
+}
+
+.horse-color-menu {
+    color: #0e8c8c !important;
+}
+
+.horse-color-azure.active {
+    background: rgb(69, 187, 194) !important;
+}
+
+.horse-nav > .menu {
+    height: 70px;
+}
+
+.horse-left-menu-bg > .item {
+    height: 70px !important;
+    width: 70px !important;
+    min-width: 0px !important;
+}
+
+.horse-nav > .menu > .item {
+    height: 70px;
+}
+
+.horse-slidbar {
+    border-right: 2px solid rgba(34, 36, 38, .15) !important;
+    color: #0e8c8c !important;
+
+}
+
+.horse-slidbar > .icon {
+    margin: 0 !important;
 }

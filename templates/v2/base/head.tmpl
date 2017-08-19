@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head data-suburl="{{AppSubURL}}">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	{{if not .PageIsAdmin}}
-		<meta name="author" content="{{if .Repository}}{{.Owner.Name}}{{else}}Gogs{{end}}" />
-		<meta name="description" content="{{if .Repository}}{{.Repository.Name}}{{if .Repository.Description}} - {{.Repository.Description}}{{end}}{{else}}Gogs is a painless self-hosted Git service{{end}}" />
-		<meta name="keywords" content="go, git, self-hosted, gogs">
+	<meta name="author" content="{{if .Repository}}{{.Owner.Name}}{{else}}Gogs{{end}}"/>
+	<meta name="description"
+				content="{{if .Repository}}{{.Repository.Name}}{{if .Repository.Description}} - {{.Repository.Description}}{{end}}{{else}}Gogs is a painless self-hosted Git service{{end}}"/>
+	<meta name="keywords" content="go, git, self-hosted, gogs">
 	{{end}}
-	<meta name="referrer" content="no-referrer" />
-	<meta name="_csrf" content="{{.CSRFToken}}" />
-	<meta name="_suburl" content="{{AppSubURL}}" />
+	<meta name="referrer" content="no-referrer"/>
+	<meta name="_csrf" content="{{.CSRFToken}}"/>
+	<meta name="_suburl" content="{{AppSubURL}}"/>
 
 	<!-- Open Graph Tags -->
 	{{if .PageIsAdmin}}
 	{{else if .PageIsUserProfile}}
-		<meta property="og:url" content="{{.Owner.HTMLURL}}" />
-		<meta property="og:type" content="profile" />
-		<meta property="og:title" content="{{.Owner.Name}}{{if .Owner.FullName}} ({{.Owner.FullName}}){{end}}">
-		<meta property="og:description" content="{{.Owner.Name}} has {{.Owner.NumFollowers}} followers and is following {{.Owner.NumFollowing}} people.">
-		<meta property="og:image" content="{{.Owner.AvatarLink}}" />
+	<meta property="og:url" content="{{.Owner.HTMLURL}}"/>
+	<meta property="og:type" content="profile"/>
+	<meta property="og:title" content="{{.Owner.Name}}{{if .Owner.FullName}} ({{.Owner.FullName}}){{end}}">
+	<meta property="og:description"
+				content="{{.Owner.Name}} has {{.Owner.NumFollowers}} followers and is following {{.Owner.NumFollowing}} people.">
+	<meta property="og:image" content="{{.Owner.AvatarLink}}"/>
 	{{else if .Repository}}
-		<meta property="og:url" content="{{.Repository.HTMLURL}}" />
-		<meta property="og:type" content="object" />
-		<meta property="og:title" content="{{.Repository.FullName}}">
-		<meta property="og:description" content="{{.Repository.Description}}">
-		<meta property="og:image" content="{{.Repository.Owner.AvatarLink}}" />
+	<meta property="og:url" content="{{.Repository.HTMLURL}}"/>
+	<meta property="og:type" content="object"/>
+	<meta property="og:title" content="{{.Repository.FullName}}">
+	<meta property="og:description" content="{{.Repository.Description}}">
+	<meta property="og:image" content="{{.Repository.Owner.AvatarLink}}"/>
 	{{else}}
-		<meta property="og:url" content="{{AppURL}}" />
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="{{AppName}}">
-		<meta property="og:description" content="Gogs is a painless self-hosted Git service.">
-		<meta property="og:image" content="{{AppURL}}img/logos/githorse.png" />
-		<meta property="og:site_name" content="Gogs">
+	<meta property="og:url" content="{{AppURL}}"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="{{AppName}}">
+	<meta property="og:description" content="Gogs is a painless self-hosted Git service.">
+	<meta property="og:image" content="{{AppURL}}img/logos/githorse.png"/>
+	<meta property="og:site_name" content="Gogs">
 	{{end}}
 
-	<link rel="shortcut icon" href="{{AppSubURL}}/img/logos/githorse.png" />
-
+	<link rel="shortcut icon" href="{{AppSubURL}}/img/logos/githorse.png"/>
 
 
 	<title>{{if .Title}}{{.Title}} - {{end}}{{AppName}}</title>
@@ -51,7 +52,7 @@
 <body>
 
 {{/*
-	</div>
+</div>
 </body>
 </html>
 */}}
