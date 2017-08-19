@@ -18,10 +18,13 @@
 }
 
 .horse-install-content {
-    height: 100%;
+    margin-left: 70px !important;
+    margin-top:70px;
+    background-color: rgb(245,249,252);
+}
+.horse-install-content > .menu{
     margin-left: 70px !important;
 }
-
 .horse-color-azure {
     color: azure !important;
 }
@@ -30,12 +33,18 @@
     color: #0e8c8c !important;
 }
 
-.horse-color-azure.active {
+.horse-color-header-bg {
+    background-color: #0e8c8c !important;
+}
+
+.horse-color-azure.active, .horse-color-azure.header {
     background: rgb(69, 187, 194) !important;
 }
 
-.horse-nav > .menu {
+.horse-nav.menu {
+    margin-left: 70px !important;
     height: 70px;
+    background-color: white !important;
 }
 
 .horse-left-menu-bg > .item {
@@ -44,7 +53,7 @@
     min-width: 0px !important;
 }
 
-.horse-nav > .menu > .item {
+.horse-nav.menu > .item {
     height: 70px;
 }
 
@@ -56,4 +65,22 @@
 
 .horse-slidbar > .icon {
     margin: 0 !important;
+}
+
+.horse-border{
+border: 2px solid #0e8c8c;
+}
+
+.horse-help{
+    display: block;
+    color: #959694;
+}
+
+.horse-form > .column{
+    padding: 5px !important;
+    text-align: right;
+}
+.horse-form > .column.horse-label {
+     text-align: right !important;
+    margin: 0px !important;
 }
