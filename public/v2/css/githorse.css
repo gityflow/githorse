@@ -84,3 +84,7 @@ border: 2px solid #0e8c8c;
      text-align: right !important;
     margin: 0px !important;
 }
+
+.horse-hidden{
+    display: none !important;
+}

@@ -84,6 +84,14 @@ func newMacaron() *macaron.Macaron {
 			SkipLogging: setting.DisableRouterLog,
 		},
 	))
+
+	m.Use(macaron.Static(
+		path.Join(setting.StaticRootPath, "static"),
+		macaron.StaticOptions{
+			Prefix:      "githorse",
+			SkipLogging: setting.DisableRouterLog,
+		},
+	))
 	m.Use(macaron.Static(
 		setting.AvatarUploadPath,
 		macaron.StaticOptions{
@@ -181,6 +189,9 @@ func runWeb(c *cli.Context) error {
 		listenAddr = fmt.Sprintf("%s:%s", setting.HTTPAddr, setting.HTTPPort)
 	}
 	log.Info("Listen: %v://%s%s", setting.Protocol, listenAddr, setting.AppSubURL)
+
+
+
 
 	var err error
 	switch setting.Protocol {

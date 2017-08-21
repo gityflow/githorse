@@ -1,17 +1,24 @@
-// Database type change detection.
+// // Database type change detection.
 $("#db_type").change(function () {
 	var sqliteDefault = 'data/gogs.db';
 
 	var dbType = $(this).val();
 	if (dbType === "SQLite3") {
 		$('#sql_settings').hide();
-		$('#pgsql_settings').hide();
+		$('#ssl_settings').hide();
 		$('#sqlite_settings').show();
 
 		if (dbType === "SQLite3") {
 			$('#db_path').val(sqliteDefault);
 		}
 		return;
+	}
+
+	if(dbType==="PostgreSQL"){
+		$('#ssl_settings').removeClass("horse-hidden");
+	}else{
+
+		$('#ssl_settings').addClass("horse-hidden");
 	}
 
 	var dbDefaults = {
@@ -22,7 +29,7 @@ $("#db_type").change(function () {
 
 	$('#sqlite_settings').hide();
 	$('#sql_settings').show();
-	$('#pgsql_settings').toggle(dbType === "PostgreSQL");
+	$('#ssl_settings').toggle(dbType === "PostgreSQL");
 	$.each(dbDefaults, function (type, defaultHost) {
 		if ($('#db_host').val() == defaultHost) {
 			$('#db_host').val(dbDefaults[dbType]);
@@ -30,6 +37,7 @@ $("#db_type").change(function () {
 		}
 	});
 });
+
 
 // TODO: better handling of exclusive relations.
 $('#offline-mode input').change(function () {
@@ -61,6 +69,3 @@ $('#enable-captcha input').change(function () {
 		$('#disable-registration').checkbox('uncheck');
 	}
 });
-
-$('.ui.dropdown').dropdown();
-$('.ui.checkbox').checkbox();

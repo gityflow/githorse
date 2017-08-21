@@ -23,6 +23,7 @@ func init() {
 }
 
 func main() {
+	cmd.InitStatic()
 	app := cli.NewApp()
 	app.Name = "GitHorse"
 	app.Usage = "A painless self-hosted Git service"
@@ -39,4 +40,5 @@ func main() {
 	}
 	app.Flags = append(app.Flags, []cli.Flag{}...)
 	app.Run(os.Args)
+
 }

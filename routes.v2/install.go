@@ -100,7 +100,7 @@ func InstallInit(c *context.Context) {
 	c.Title("install.install")
 	c.PageIs("Install")
 
-	dbOpts := []string{"MySQL", "PostgreSQL", "MSSQL"}
+	dbOpts := []string{"PostgreSQL","MySQL","MSSQL"}
 	if models.EnableSQLite3 {
 		dbOpts = append(dbOpts, "SQLite3")
 	}

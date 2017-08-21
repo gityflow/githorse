@@ -34,7 +34,7 @@ func Home(c *context.Context) {
 	// Check auto-login.
 	uname := c.GetCookie(setting.CookieUserName)
 	if len(uname) != 0 {
-		c.Redirect(setting.AppSubURL + "/user/login")
+		c.Redirect(setting.AppSubURL + "/v2/user/login")
 		return
 	}
 
