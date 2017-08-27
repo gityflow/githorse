@@ -25,7 +25,7 @@ func Toggle(options *ToggleOptions) macaron.Handler {
 	return func(c *Context) {
 		// Cannot view any page before installation.
 		if !setting.InstallLock {
-			c.Redirect(setting.AppSubURL + "/install")
+			c.Redirect(setting.AppSubURL + "/v2/install")
 			return
 		}
 
